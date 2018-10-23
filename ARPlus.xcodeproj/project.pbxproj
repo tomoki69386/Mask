@@ -12,6 +12,7 @@
 		B74725F0217F9DF300ECF47B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74725EE217F9DF300ECF47B /* Main.storyboard */; };
 		B74725F2217F9DF400ECF47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74725F1217F9DF400ECF47B /* Assets.xcassets */; };
 		B74725F5217F9DF400ECF47B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74725F3217F9DF400ECF47B /* LaunchScreen.storyboard */; };
+		B74725FD217FA06500ECF47B /* FaceTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74725FC217FA06500ECF47B /* FaceTracker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		B74725F1217F9DF400ECF47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B74725F4217F9DF400ECF47B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B74725F6217F9DF400ECF47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74725FC217FA06500ECF47B /* FaceTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTracker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				B74725EA217F9DF300ECF47B /* AppDelegate.swift */,
 				B74725EC217F9DF300ECF47B /* ViewController.swift */,
+				B74725FC217FA06500ECF47B /* FaceTracker.swift */,
 				B74725EE217F9DF300ECF47B /* Main.storyboard */,
 				B74725F1217F9DF400ECF47B /* Assets.xcassets */,
 				B74725F3217F9DF400ECF47B /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				B74725ED217F9DF300ECF47B /* ViewController.swift in Sources */,
 				B74725EB217F9DF300ECF47B /* AppDelegate.swift in Sources */,
+				B74725FD217FA06500ECF47B /* FaceTracker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
